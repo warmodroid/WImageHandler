@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WImageHandler_Example' do
+  pod 'WImageHandler', :path => '../'
+
+  target 'WImageHandler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
