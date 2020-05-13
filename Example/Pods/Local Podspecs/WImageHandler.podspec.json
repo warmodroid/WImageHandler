@@ -1,0 +1,22 @@
+{
+  "name": "WImageHandler",
+  "version": "0.1.0",
+  "summary": "A short description of WImageHandler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/warmodroid/WImageHandler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "warmodroid": "mohit.d.agrawal@accenture.com"
+  },
+  "source": {
+    "git": "https://github.com/warmodroid/WImageHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WImageHandler/Classes/**/*"
+}

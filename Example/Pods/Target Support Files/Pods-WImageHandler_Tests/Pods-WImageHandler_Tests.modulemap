@@ -1,0 +1,6 @@
+framework module Pods_WImageHandler_Tests {
+  umbrella header "Pods-WImageHandler_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

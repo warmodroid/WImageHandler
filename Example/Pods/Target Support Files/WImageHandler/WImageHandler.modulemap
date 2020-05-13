@@ -1,0 +1,6 @@
+framework module WImageHandler {
+  umbrella header "WImageHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

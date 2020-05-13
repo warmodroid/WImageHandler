@@ -1,0 +1,16 @@
+PODS:
+  - WImageHandler (0.1.0)
+
+DEPENDENCIES:
+  - WImageHandler (from `../`)
+
+EXTERNAL SOURCES:
+  WImageHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WImageHandler: 5573a98f61b663542f02a58aa0f6f4af73f79b05
+
+PODFILE CHECKSUM: 405e701daf2616185609d9f48895087349df266a
+
+COCOAPODS: 1.9.1
