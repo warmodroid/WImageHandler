@@ -13,7 +13,7 @@
 		1C739D7D79404369DA703381D6F18909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		24DF99F3704075B2F49BCC7E9466155F /* Pods-WImageHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5968CBD7DCA6BD6F395D6F851DABDA /* Pods-WImageHandler_Example-dummy.m */; };
 		6B77D6784290BE563FDE6CCA59C086FE /* Pods-WImageHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE285F3D20226EB0D267283AB1306193 /* Pods-WImageHandler_Tests-dummy.m */; };
-		B475EC76FF26361BCAFA849BBB056148 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF0F0D4DB1B93E9CFE3B73E5B8D9E /* ReplaceMe.swift */; };
+		B475EC76FF26361BCAFA849BBB056148 /* WIImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF0F0D4DB1B93E9CFE3B73E5B8D9E /* WIImageHandler.swift */; };
 		C537620B6CEB2EBAE90A620983A2429E /* Pods-WImageHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54548EE10B3D9C42274E52243601E5F9 /* Pods-WImageHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6C965D9DF12EFC9538278E5DA279F53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EBFCBCA4E71C9560EB649232C9D45ADB /* Pods-WImageHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB3C40EE2F37C75DD26F05EC28609D9 /* Pods-WImageHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,19 +42,19 @@
 		1AC2F11C1BFB3CF57C6307A71A35F2AA /* Pods-WImageHandler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WImageHandler_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34AD952B2DF02FB980A87FB266362829 /* Pods-WImageHandler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WImageHandler_Example-Info.plist"; sourceTree = "<group>"; };
-		3D6EF0F0D4DB1B93E9CFE3B73E5B8D9E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WImageHandler/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		43D1A0AF2397C4FE4A5C2CD4574A0EC0 /* WImageHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WImageHandler.framework; path = WImageHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48CF095DB2BDB7435C2A8C3CFC36C781 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D6EF0F0D4DB1B93E9CFE3B73E5B8D9E /* WIImageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WIImageHandler.swift; path = WImageHandler/Classes/WIImageHandler.swift; sourceTree = "<group>"; };
+		43D1A0AF2397C4FE4A5C2CD4574A0EC0 /* WImageHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WImageHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CF095DB2BDB7435C2A8C3CFC36C781 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		54548EE10B3D9C42274E52243601E5F9 /* Pods-WImageHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WImageHandler_Example-umbrella.h"; sourceTree = "<group>"; };
-		56EB680ED49D18C3BD7F26963CAFD878 /* Pods_WImageHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WImageHandler_Tests.framework; path = "Pods-WImageHandler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EB680ED49D18C3BD7F26963CAFD878 /* Pods_WImageHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WImageHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AACD1508A0399D818D2727BE97AB58 /* WImageHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WImageHandler.modulemap; sourceTree = "<group>"; };
 		5FC158AA3FE7E519811543ADE29A6422 /* Pods-WImageHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WImageHandler_Tests.modulemap"; sourceTree = "<group>"; };
 		67F26AFDC30DFF510038CFBC5A8D2BCB /* WImageHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WImageHandler-Info.plist"; sourceTree = "<group>"; };
 		6B5968CBD7DCA6BD6F395D6F851DABDA /* Pods-WImageHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WImageHandler_Example-dummy.m"; sourceTree = "<group>"; };
 		6EB12DFD4AD1A9F3AE7AA20D606396E2 /* Pods-WImageHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WImageHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		94AC1997B02F2713DFA78E82C7E601A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94AC1997B02F2713DFA78E82C7E601A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		990237CBD2554842924AB7E283F35751 /* Pods-WImageHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WImageHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1C44C3666580710C1181A27BC54A66B /* WImageHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WImageHandler.debug.xcconfig; sourceTree = "<group>"; };
 		BED8C147AB963FA464A7C3614A412619 /* Pods-WImageHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WImageHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7444402B75263BB31E67F8BACD0304F /* Pods-WImageHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WImageHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 		EF477E01A525060B18D9889F84BF70B5 /* Pods-WImageHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WImageHandler_Example.modulemap"; sourceTree = "<group>"; };
 		F0BC1B976E9AD183F9173F85678CD070 /* WImageHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WImageHandler-prefix.pch"; sourceTree = "<group>"; };
 		F1A59A901B77EE13BC6897AA71225E41 /* WImageHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WImageHandler.release.xcconfig; sourceTree = "<group>"; };
-		F66FF851B58BC7182F29DB63264BFA25 /* Pods_WImageHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WImageHandler_Example.framework; path = "Pods-WImageHandler_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE621F7E826965ED59121D72709624D3 /* WImageHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WImageHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F66FF851B58BC7182F29DB63264BFA25 /* Pods_WImageHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WImageHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE621F7E826965ED59121D72709624D3 /* WImageHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WImageHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 		3F5AB5A7789CFB1BCF0D069B8FB2A8C4 /* WImageHandler */ = {
 			isa = PBXGroup;
 			children = (
-				3D6EF0F0D4DB1B93E9CFE3B73E5B8D9E /* ReplaceMe.swift */,
+				3D6EF0F0D4DB1B93E9CFE3B73E5B8D9E /* WIImageHandler.swift */,
 				AE778D37DBEDB4894B12C8FE4777162E /* Pod */,
 				4191AEBE8F426F08E84F795F4FBF4BB5 /* Support Files */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B475EC76FF26361BCAFA849BBB056148 /* ReplaceMe.swift in Sources */,
+				B475EC76FF26361BCAFA849BBB056148 /* WIImageHandler.swift in Sources */,
 				104E42F38CBF1838BB358E8A98A0E2A9 /* WImageHandler-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,8 +656,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

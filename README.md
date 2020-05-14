@@ -22,7 +22,8 @@ pod 'WImageHandler'
 
 ## Author
 
-warmodroid, mohit.agrawal886@gmail.com
+warmodroid, warmodroid@gmail.com
+[Vist the website](https://www.warmodroid.xyz)
 
 ## License
 
